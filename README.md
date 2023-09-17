@@ -1,39 +1,35 @@
-# 8_Week_SQL_Challenge
-
-## Danny's Diner Case Study
+# 8-Week SQL Challenge
 
 ## Introduction
 
-Danny's Diner is a cozy restaurant that specializes in serving three of Danny's favorite foods: sushi, curry, and ramen. However, despite its charm, Danny's Diner is facing challenges in understanding its customer behavior, spending patterns, and menu preferences. Danny believes that leveraging data can help him make informed decisions to enhance customer satisfaction and grow his business.
+Welcome to the 8-Week SQL Challenge! This challenge takes you on an exciting journey through eight unique case studies designed to enhance your SQL skills while solving real-world problems. Each case study presents a different scenario and dataset, allowing you to apply your SQL knowledge to extract valuable insights.
 
-## Problem Statement
+## Case Study 1: Danny's Diner
 
-Danny seeks assistance in analyzing the data collected during the first few months of Danny's Diner's operation. He wants answers to the following questions:
+- **Introduction**: Danny's Diner is a restaurant specializing in sushi, curry, and ramen. This case study explores the use of SQL to analyze customer behavior, spending patterns, and menu preferences to improve the business.
 
-1. **Customer Visiting Patterns**: Danny wants to understand when his customers visit the diner, helping him plan staff schedules efficiently.
+- **Problem Statement**: Danny seeks assistance in understanding customer data and answering key questions:
+  1. Customer Visiting Patterns
+  2. Customer Spending Habits
+  3. Favorite Menu Items
 
-2. **Customer Spending Habits**: Danny is interested in knowing how much money customers spend on average during their visits.
+- **Available Data**: The case study provides three key datasets within the `pizza_runner` database schema: `sales`, `menu`, and `members`.
 
-3. **Favorite Menu Items**: To improve the menu, Danny wants to identify which menu items are the most popular among customers.
+## Case Study 2: Pizza Runner
 
-Additionally, Danny needs help in creating basic datasets to facilitate data inspection without the need for SQL expertise. He has provided three key datasets for this case study:
+- **Introduction**: Pizza Runner, launched by Danny, is a pizza delivery service with a unique 80s retro styling. This case study explores how SQL can optimize the operations of Pizza Runner.
 
-- `sales`: Contains transactional data related to customer orders.
-- `menu`: Includes information about the items available on the menu.
-- `members`: Holds data about Danny's Diner loyalty program members.
+- **Available Data**: The case study involves six tables within the Pizza Runner database:
+  1. Runners
+  2. Customer Orders
+  3. Runner Orders
+  4. Pizza Names
+  5. Pizza Recipes
+  6. Pizza Toppings
 
-## Pizza Runner Case Study
+- **Problem Statement**: Tasks in this case study include data cleaning and performing basic calculations to enhance Pizza Runner's operations.
 
-Did you know that over 115 million kilograms of pizza are consumed daily worldwide? Danny certainly does! Inspired by the idea of combining 80s retro styling with pizza, he launched Pizza Runner. This venture involves delivering fresh pizzas to customers using a team of runners and a mobile app.
+In this repository, you will find SQL scripts and queries to tackle the challenges presented in the "Danny's Diner" and "Pizza Runner" case studies. These scripts are designed to assist you in analyzing the data, performing calculations, and providing insights to support Danny's restaurant and pizza delivery business.
 
-## Available Data
 
-Danny recognized the importance of data collection for Pizza Runner's growth. He has provided an entity relationship diagram (ERD) of his database design. However, he needs assistance in cleaning the data and performing basic calculations to optimize Pizza Runner's operations.
 
-All datasets for both Danny's Diner and Pizza Runner exist within the `pizza_runner` database schema. Please reference this schema when working with the data and addressing the case study questions.
-
-In this repository, you will find SQL scripts and queries to analyze the data and answer Danny's questions for both Danny's Diner and Pizza Runner. Feel free to explore the code and datasets to gain insights into these exciting ventures!
-
-**Note**: Due to privacy issues, only sample data is provided. However, the provided examples are sufficient to write fully functioning SQL queries to assist Danny in making data-driven decisions.
-
-**Let's get started with SQL analysis to help Danny enhance his restaurants!**
